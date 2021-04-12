@@ -34,12 +34,11 @@ const Heading = styled.h1`
 
 const Heading2 = styled.h2`
 font-family: "Bebas Neue", cursive;
-color: #fff;
+color: #000;
 text-transform: uppercase;
 font-weight: bold;
 font-size: 2.4rem;
 margin-top: 2rem;
-margin-buttom: 0px;
 display: block;
 `;
 

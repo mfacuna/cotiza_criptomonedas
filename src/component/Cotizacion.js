@@ -2,13 +2,17 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const MensajeValor = styled.p`
+    display: block;
     background-color: #124578;
     padding: 1rem;
-    margin-top: 0px;
+    margin: 0px 0px 10px 0px;
     color: #FFF;
     font-size: 30px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 `;
 
 const Cotizacion = ({resultado}) => {
