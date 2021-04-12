@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 const MensajeValor = styled.p`
     background-color: #124578;
     padding: 1rem;
+    margin-top: 0px;
     color: #FFF;
     font-size: 30px;
     text-transform: uppercase;
