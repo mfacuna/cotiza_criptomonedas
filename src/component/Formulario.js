@@ -31,7 +31,13 @@ const Formulario = ({setMoneda, setCriptomoneda}) => {
         { codigo: "CLP", nombre: "Pesos Chilenos" },
         { codigo: "USD", nombre: "Dolares" },
         { codigo: "EUR", nombre: "Euros" },
-        { codigo: "GBP", nombre: "Libras Esterlinas" },
+        { codigo: "JPY", nombre: "Yen Japones" },
+        { codigo: "AUD", nombre: "Dólar Autraliano" },
+        { codigo: "CAD", nombre: "Dólar Canadience" },
+        { codigo: "CHF", nombre: "Franco Suizo" },
+        { codigo: "CNH", nombre: "Renminbi Chino" },
+        { codigo: "HKD", nombre: "Dólar Hongkonés" },
+        { codigo: "NZD", nombre: "Dólar Neozelandés" },
     ];
 
     const [moneda, SelectMoneda] = useMoneda("Elige tu moneda", "", MONEDAS);
